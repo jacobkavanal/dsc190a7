@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "dvc>=3.67.1",
     "marimo>=0.25.2",
     "matplotlib>=3.11.2",
     "pandas>=3.1.0",

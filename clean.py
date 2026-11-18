@@ -21,19 +21,19 @@ def _(pd):
 
 @app.cell
 def _(df):
-    dfna = df.dropna()
+    dfna = df.replace(r'^\s*$', float('nan'), regex=True).dropna()
     return (dfna,)
 
 
 @app.cell
 def _(dfna):
-    df_valid_events = dfna[dfna['event_type'].isin(['click', 'login', 'scroll', 'view', 'buy'])]
+    df_valid_events = dfna[dfna['event_type'].isin(['click', 'login', 'scroll', 'view', 'purchase'])]
     return (df_valid_events,)
 
 
 @app.cell
 def _(df_valid_events):
-    df_valid_times = df_valid_events[df_valid_events['duration_seconds'] >= 0]
+    df_valid_times = df_valid_events[df_valid_events['duration_seconds'] > 0].copy()
     df_valid_times['duration_seconds'] = df_valid_times['duration_seconds'].astype(int)
     return (df_valid_times,)
 

@@ -10,7 +10,7 @@ def _():
     import pandas as pd
     import os
 
-    return (pd,)
+    return os, pd
 
 
 @app.cell
@@ -21,13 +21,13 @@ def _(pd):
 
 @app.cell
 def _(dfdate, pd):
-    dfdate["timestamp"] = pd.to_datetime(dfdate["timestamp"])
-    dfdate["date"] = dfdate["timestamp"].dt.strftime("%Y-%m-%d")
+    dfdate["date"] = dfdate["timestamp"].str[:10]
     return
 
 
 @app.cell
-def _(dfdate):
+def _(dfdate, os):
+    os.makedirs("data/transformed", exist_ok=True)
     dfdate.to_csv("data/transformed/events.csv", index=False)
     return
 
