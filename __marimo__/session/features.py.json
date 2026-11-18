@@ -1,0 +1,67 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "ac8619a218eb3cdf27bedc6bf0d5eef6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "aa1b166a99366951457217de09dbd022",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "891bf5c5d23bf58dc97f91b9d5b49dfc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lpbR",
+      "code_hash": "16908b0605f2645dfcb4c3a8d248cef3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lpbR-0' random-id='48a836ef-dad1-b7f9-edd9-980138912a6b'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0166&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-02-28 10:29:30&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;click&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:46,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-02-28&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:0.7666666666666667,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Saturday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0007&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-01-25 06:45:26&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;login&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:348,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-01-25&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:5.8,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Sunday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0054&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-04-28 00:51:56&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;click&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:54,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-04-28&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:0.9,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Tuesday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0082&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-04-06 23:44:55&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;scroll&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:36,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-04-06&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:0.6,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Monday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0009&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-04-26 20:20:16&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;login&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:0,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-04-26&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:0.0,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Sunday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0015&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-03-12 08:10:17&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;scroll&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:13,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-03-12&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:0.21666666666666667,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Thursday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0010&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-03-01 15:39:53&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;buy&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:323,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-03-01&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:5.383333333333334,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Sunday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0047&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-02-26 11:58:27&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;click&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:150,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-02-26&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:2.5,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Thursday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0027&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-02-09 22:48:02&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;click&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:388,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-02-09&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:6.466666666666667,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Monday&#92;&quot;},{&#92;&quot;user_id&#92;&quot;:&#92;&quot;u0094&#92;&quot;,&#92;&quot;timestamp&#92;&quot;:&#92;&quot;2026-02-22 01:57:46&#92;&quot;,&#92;&quot;event_type&#92;&quot;:&#92;&quot;scroll&#92;&quot;,&#92;&quot;duration_seconds&#92;&quot;:125,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-02-22&#92;&quot;,&#92;&quot;duration_minutes&#92;&quot;:2.0833333333333335,&#92;&quot;weekday&#92;&quot;:&#92;&quot;Sunday&#92;&quot;}]&quot;' data-total-rows='1357' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;user_id&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;timestamp&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;event_type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;duration_seconds&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;date&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;duration_minutes&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;weekday&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LOgF",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
